@@ -1,0 +1,24 @@
+{
+  "name": "ironhack-hackathon-superfoods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/browser-sync start --server --index 'src/index.html' --files 'src' --serveStatic 'src'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewkeil/ironhack-hackathon-superfoods.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewkeil/ironhack-hackathon-superfoods/issues"
+  },
+  "homepage": "https://github.com/matthewkeil/ironhack-hackathon-superfoods#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
